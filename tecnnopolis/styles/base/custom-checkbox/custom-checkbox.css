@@ -35,9 +35,8 @@
     border-color: #5bc3ca;
 }
 
-.custom-checkbox_target:checked~.todos-list_item .todos-list_item_text-w .todos-list_item_text {
-    text-decoration-line: line-through;
-}
+
+
 
 .custom-checkbox_target:checked~.custom-checkbox_visual .custom-checkbox_visual_icon {
     width: 20px;
