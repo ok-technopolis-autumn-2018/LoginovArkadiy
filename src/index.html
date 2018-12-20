@@ -25,74 +25,16 @@
             <hr/>
 
             <div class="todos-list">
-                <!--<div class="todos-list_item">-->
-                    <!--<div class="custom-checkbox todos-list_item_ready-marker">-->
-                        <!--<input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />-->
-                        <!--<div class="custom-checkbox_visual">-->
-                            <!--<div class="custom-checkbox_visual_icon"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
 
-                    <!--<button class="todos-list_item_remove" aria-label="Delete todo"></button>-->
-
-                    <!--<div class="todos-list_item_text-w">-->
-                        <!--<textarea readonly class="todos-list_item_text">HTML</textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<hr/>-->
-                <!--<div class="todos-list_item __completed">-->
-                    <!--<div class="custom-checkbox todos-list_item_ready-marker">-->
-                        <!--<input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />-->
-                        <!--<div class="custom-checkbox_visual">-->
-                            <!--<div class="custom-checkbox_visual_icon"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<button class="todos-list_item_remove" aria-label="Delete todo"></button>-->
-
-                    <!--<div class="todos-list_item_text-w">-->
-                        <!--<textarea readonly class="todos-list_item_text">CSS</textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<hr/>-->
-                <!--<div class="todos-list_item">-->
-                    <!--<div class="custom-checkbox todos-list_item_ready-marker">-->
-                        <!--<input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />-->
-                        <!--<div class="custom-checkbox_visual">-->
-                            <!--<div class="custom-checkbox_visual_icon"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<button class="todos-list_item_remove" aria-label="Delete todo"></button>-->
-
-                    <!--<div class="todos-list_item_text-w">-->
-                        <!--<textarea readonly class="todos-list_item_text">JS</textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
-                <!--<hr/>-->
-                <!--<div class="todos-list_item">-->
-                    <!--<div class="custom-checkbox todos-list_item_ready-marker">-->
-                        <!--<input type="checkbox" class="custom-checkbox_target" aria-label="Mark todo as ready" />-->
-                        <!--<div class="custom-checkbox_visual">-->
-                            <!--<div class="custom-checkbox_visual_icon"></div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
-                    <!--<button class="todos-list_item_remove" aria-label="Delete todo"></button>-->
-
-                    <!--<div class="todos-list_item_text-w">-->
-                        <!--<textarea readonly class="todos-list_item_text">JS Tools</textarea>-->
-                    <!--</div>-->
-                <!--</div>-->
             </div>
 
             <hr/>
             <div class="todos-toolbar">
-                <div class="todos-toolbar_unready-counter">3 items left</div>
+                <div class="todos-toolbar_unready-counter" id="counter">3 items left</div>
 
                 <span class="todos-toolbar_filters">
                     <span class="filters-item" aria-label="Filter: All, is selected">
-                        <input type="checkbox" id="filter1" class="filters-checkbox" />
+                        <input type="checkbox" checked id="filter1" class="filters-checkbox" />
                         <label for="filter1" class="filters-label">All</label>
                     </span>
                     <span class="filters-item" aria-label="Filter: Active">
